@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+
+<body>
+
+<p id="check"> </p>
+
+<script>
+const time = new Date().getHours();
+let greeting;
+
+if (time < 11) {
+greeting = "Kalimera";
+
+}
+
+else if (time < 20) {
+  greeting = "Kalispera";
+}
+
+else {
+  greeting = "Kalinixta";
+}
+
+document.getElementById('check').innerHTML = greeting;
+
+
+</script>
+
+</body>
+
+
+
+</html>
